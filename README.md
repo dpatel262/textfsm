@@ -1,6 +1,7 @@
 ##### Example Output
 
 ```
+INTERFACE,STATE,MAC_ADDRESS,IPV6_GLOBAL,IPV6_LINK_LOCAL,FILENAME
 ens41np0,UP,7c:c2:55:bd:92:00,fd93:16d3:59b6:2:7ec2:55ff:febd:9200,fe80::7ec2:55ff:febd:9200,chi2373_ip_info.txt
 ens42np0,UP,7c:c2:55:bd:96:40,fd93:16d3:59b6:1:7ec2:55ff:febd:9640,fe80::7ec2:55ff:febd:9640,chi2373_ip_info.txt
 ens32np0,UP,7c:c2:55:bd:96:50,fd93:16d3:59b6:3:7ec2:55ff:febd:9650,fe80::7ec2:55ff:febd:9650,chi2373_ip_info.txt
