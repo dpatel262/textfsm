@@ -1,0 +1,12 @@
+Value INTERFACE (ens\S+)
+Value STATE (\S+)
+Value MAC_ADDRESS (\S+)
+Value IPV6_GLOBAL (\S+)
+Value IPV6_LINK_LOCAL (\S+)
+
+Start
+  ^\d+: ${INTERFACE}: <.*?> mtu \d+ qdisc \S+ state ${STATE} group .*
+  ^\s+link/ether ${MAC_ADDRESS} .* 
+  ^\s+inet6 (${IPV6_GLOBAL})/64 scope global .* 
+  ^\s+inet6 (${IPV6_LINK_LOCAL})/64 scope link .* -> Record 
+

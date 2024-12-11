@@ -1,0 +1,78 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens41np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq state UP group default qlen 1000
+    link/ether 7c:c2:55:bd:92:00 brd ff:ff:ff:ff:ff:ff
+    altname enp6s0np0
+    inet6 fd93:16d3:59b6:2:7ec2:55ff:febd:9200/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 2591553sec preferred_lft 604353sec
+    inet6 fe80::7ec2:55ff:febd:9200/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ens42np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq state UP group default qlen 1000
+    link/ether 7c:c2:55:bd:96:40 brd ff:ff:ff:ff:ff:ff
+    altname enp35s0np0
+    inet6 fd93:16d3:59b6:1:7ec2:55ff:febd:9640/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 2591664sec preferred_lft 604464sec
+    inet6 fe80::7ec2:55ff:febd:9640/64 scope link 
+       valid_lft forever preferred_lft forever
+4: ens32np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq state UP group default qlen 1000
+    link/ether 7c:c2:55:bd:96:50 brd ff:ff:ff:ff:ff:ff
+    altname enp67s0np0
+    inet6 fd93:16d3:59b6:3:7ec2:55ff:febd:9650/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 2591494sec preferred_lft 604294sec
+    inet6 fe80::7ec2:55ff:febd:9650/64 scope link 
+       valid_lft forever preferred_lft forever
+5: ens31np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq state UP group default qlen 1000
+    link/ether 7c:c2:55:bd:95:d0 brd ff:ff:ff:ff:ff:ff
+    altname enp102s0np0
+    inet6 fd93:16d3:59b6:4:7ec2:55ff:febd:95d0/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 2591993sec preferred_lft 604793sec
+    inet6 fe80::7ec2:55ff:febd:95d0/64 scope link 
+       valid_lft forever preferred_lft forever
+6: ens21np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq state UP group default qlen 1000
+    link/ether 7c:c2:55:bd:95:30 brd ff:ff:ff:ff:ff:ff
+    altname enp134s0np0
+    inet6 fd93:16d3:59b6:6:7ec2:55ff:febd:9530/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 2591737sec preferred_lft 604537sec
+    inet6 fe80::7ec2:55ff:febd:9530/64 scope link 
+       valid_lft forever preferred_lft forever
+7: ens22np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq state UP group default qlen 1000
+    link/ether 7c:c2:55:bd:95:10 brd ff:ff:ff:ff:ff:ff
+    altname enp163s0np0
+    inet6 fd93:16d3:59b6:5:7ec2:55ff:febd:9510/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 2591803sec preferred_lft 604603sec
+    inet6 fe80::7ec2:55ff:febd:9510/64 scope link 
+       valid_lft forever preferred_lft forever
+8: ens51f0np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether a0:88:c2:39:24:e8 brd ff:ff:ff:ff:ff:ff
+    altname enp48s0f0np0
+    inet 137.220.63.90/23 brd 137.220.63.255 scope global ens51f0np0
+       valid_lft forever preferred_lft forever
+    inet6 2001:19f0:5c01:219:a288:c2ff:fe39:24e8/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 2591985sec preferred_lft 604785sec
+    inet6 fe80::a288:c2ff:fe39:24e8/64 scope link 
+       valid_lft forever preferred_lft forever
+9: ens12np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq state UP group default qlen 1000
+    link/ether 7c:c2:55:bd:98:10 brd ff:ff:ff:ff:ff:ff
+    altname enp195s0np0
+    inet6 fd93:16d3:59b6:7:7ec2:55ff:febd:9810/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 2591752sec preferred_lft 604552sec
+    inet6 fe80::7ec2:55ff:febd:9810/64 scope link 
+       valid_lft forever preferred_lft forever
+10: ens11np0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq state UP group default qlen 1000
+    link/ether 7c:c2:55:bd:96:80 brd ff:ff:ff:ff:ff:ff
+    altname enp230s0np0
+    inet6 fd93:16d3:59b6:8:7ec2:55ff:febd:9680/64 scope global dynamic mngtmpaddr noprefixroute 
+       valid_lft 2591725sec preferred_lft 604525sec
+    inet6 fe80::7ec2:55ff:febd:9680/64 scope link 
+       valid_lft forever preferred_lft forever
+11: ens51f1np1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether a0:88:c2:39:24:e9 brd ff:ff:ff:ff:ff:ff
+    altname enp48s0f1np1
+12: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 02:42:de:d4:d3:2f brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
